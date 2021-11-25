@@ -13,9 +13,9 @@ class Square extends React.Component {
     };
   }
   
-  // logClick(value) {
-  //   console.log(`clicked sqaure marked with ${value} `);
-  // }
+  logClick(value) {
+    console.log(`clicked sqaure marked with ${value} `);
+  }
 
   render() {
     return (
