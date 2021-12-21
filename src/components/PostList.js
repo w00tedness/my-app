@@ -3,7 +3,6 @@ import axios from 'axios'
 class PostList extends Component {
   constructor(props) {
     super(props)
-  
     this.state = {
        posts: [],
        errorMsg: ''
@@ -22,7 +21,6 @@ class PostList extends Component {
   
   render() {
     const { posts, errorMsg } = this.state
-
     return (
       <div>
 				List of posts
