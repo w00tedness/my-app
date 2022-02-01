@@ -4,7 +4,7 @@ import axios from 'axios'
 class PostForm extends Component {
   constructor(props) {
     super(props)
-  
+
     this.state = {
        userId: '',
        title: '',
@@ -30,7 +30,7 @@ class PostForm extends Component {
         console.error(e)
       })
   }
-  
+
   render() {
     const {userId, title, body} = this.state
     return (
